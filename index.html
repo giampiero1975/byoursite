@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BYOURSITE | Siti web, gestionali e API su misura</title>
+  <meta name="description" content="BYOURSITE realizza siti vetrina, restyling, piccoli gestionali, automazioni, database e API REST su misura per professionisti, aziende e attività." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://byoursite.com/" />
+  <link rel="describedby" href="https://byoursite.com/llms.txt" type="text/plain" />
+  <meta name="theme-color" content="#030611" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:url" content="https://byoursite.com/" />
+  <meta property="og:site_name" content="BYOURSITE" />
+  <meta property="og:title" content="BYOURSITE | Il tuo sito, al tuo fianco" />
+  <meta property="og:description" content="Siti web, gestionali, automazioni e integrazioni API costruiti su misura: by your site, by your side." />
+  <meta property="og:image" content="https://byoursite.com/public/og.png" />
+  <meta property="og:image:alt" content="Hero tipografica BYOURSITE con il gioco di parole site e side" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BYOURSITE | Siti web, gestionali e API su misura" />
+  <meta name="twitter:description" content="Soluzioni web sartoriali: siti, gestionali, database, automazioni e API REST." />
+  <meta name="twitter:image" content="https://byoursite.com/public/og.png" />
+<link rel="icon" href="public/favicon.svg" type="image/svg+xml" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://byoursite.com/#organization",
+        "name": "BYOURSITE",
+        "url": "https://byoursite.com/",
+        "logo": "https://byoursite.com/public/logo-byoursite-master.svg",
+        "slogan": "Il tuo sito, al tuo fianco",
+        "description": "Siti web, gestionali, automazioni, database e API REST su misura.",
+        "email": "info@byoursite.com"
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://byoursite.com/#service",
+        "name": "BYOURSITE",
+        "url": "https://byoursite.com/",
+        "image": "https://byoursite.com/public/og.png",
+        "description": "Progettazione e sviluppo di siti vetrina, restyling, piccoli gestionali, automazioni, integrazioni API e consulenza tecnica.",
+        "areaServed": "Italia",
+        "email": "info@byoursite.com",
+        "knowsAbout": ["PHP", "SQL", "WordPress", "JavaScript", "database", "API REST", "gestionali web", "automazioni", "hosting"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Servizi BYOURSITE",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siti vetrina" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Restyling e manutenzione siti" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gestionali web piccoli" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Automazioni" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Integrazioni API REST" } }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://byoursite.com/#website",
+        "url": "https://byoursite.com/",
+        "name": "BYOURSITE",
+        "publisher": { "@id": "https://byoursite.com/#organization" },
+        "inLanguage": "it-IT"
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root{--bg:#030611;--ink:#f7f9fc;--muted:#9aa6b7;--line:rgba(255,255,255,.13);--cyan:#68ddf8;--cyan2:#1eb7e6;--violet:#b39af6;--violet2:#735ee8;--panel:#07111f;--warm:#d8d4c8}
+    *{box-sizing:border-box} html{scroll-behavior:smooth;max-width:100%;overflow-x:hidden} body{margin:0;max-width:100%;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;overflow-x:hidden} a{text-decoration:none;color:inherit} ::selection{background:var(--cyan);color:#03101a} body{scrollbar-width:thin;scrollbar-color:rgba(104,221,248,.44) rgba(3,6,17,.92)}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:#030611}::-webkit-scrollbar-thumb{background:linear-gradient(180deg,rgba(104,221,248,.62),rgba(179,154,246,.5));border:3px solid #030611;border-radius:999px}::-webkit-scrollbar-thumb:hover{background:linear-gradient(180deg,var(--cyan),var(--violet))}
+    .noise,.grid,.glow{position:fixed;inset:0;pointer-events:none}.noise{z-index:0;opacity:.28;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)' opacity='.46'/%3E%3C/svg%3E")}.grid{z-index:0;background:linear-gradient(rgba(104,221,248,.075) 1px,transparent 1px),linear-gradient(90deg,rgba(104,221,248,.075) 1px,transparent 1px);background-size:92px 92px;mask-image:linear-gradient(to bottom,black,transparent 88%)}.glow{z-index:0;background:radial-gradient(circle at 72% 24%,rgba(115,94,232,.33),transparent 28%),radial-gradient(circle at 24% 76%,rgba(30,183,230,.2),transparent 26%),linear-gradient(180deg,rgba(3,6,17,.15),#030611 92%)}
+    .page{position:relative;z-index:1;overflow:hidden}.shell{padding-left:clamp(18px,4vw,72px);padding-right:clamp(18px,4vw,72px)}
+    header{position:sticky;top:0;z-index:30;height:96px;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:34px;background:linear-gradient(180deg,rgba(3,6,17,.92),rgba(3,6,17,.68));backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.08)}.brand img{display:block;width:clamp(170px,17vw,260px);height:auto;filter:drop-shadow(0 0 18px rgba(104,221,248,.18))}nav{display:flex;justify-content:center;gap:clamp(18px,3vw,52px);font-family:"Courier New",monospace;text-transform:uppercase;font-size:14px;color:rgba(255,255,255,.78)}nav a{position:relative;padding:10px 0}nav a:after{content:"";position:absolute;left:0;right:0;bottom:2px;height:1px;background:var(--cyan);transform:scaleX(0);transform-origin:left;transition:.25s}nav a:hover{color:white}nav a:hover:after{transform:scaleX(1)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:56px;border:1px solid rgba(255,255,255,.52);padding:0 28px;font-family:"Courier New",monospace;text-transform:uppercase;font-size:13px;letter-spacing:0;background:rgba(3,6,17,.2);backdrop-filter:blur(10px);transition:.22s}.btn:hover{border-color:var(--cyan);background:rgba(104,221,248,.11);color:var(--cyan)}.btn.primary{border-color:transparent;background:linear-gradient(90deg,var(--cyan),var(--violet));color:#030611;box-shadow:0 0 42px rgba(104,221,248,.28)}.btn.primary:hover{background:white;color:#030611}
+    .hero{min-height:calc(100svh - 96px);display:grid;align-items:center;padding-top:24px;padding-bottom:42px;position:relative}.hero:before{content:"";position:absolute;right:-26vw;top:8vh;width:min(980px,68vw);height:min(680px,66vh);background:url('public/hero-futuristic.webp') 78% 48%/cover no-repeat;opacity:.038;filter:blur(3px) saturate(1.16) contrast(1.08);mix-blend-mode:screen;clip-path:polygon(18% 0,100% 0,100% 100%,0 84%);mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.78) 28%,#000 100%)}.hero-layout{position:relative;display:grid;grid-template-columns:220px 1fr 280px;gap:28px;align-items:center}.side-note{font-family:"Courier New",monospace;text-transform:uppercase;color:rgba(255,255,255,.68);line-height:1.55;font-size:18px}.side-note .rule{display:block;width:28px;height:1px;background:var(--cyan);margin:28px 0}.hero-center{min-width:0}.micro{margin:0 0 20px;text-align:right;font-family:"Courier New",monospace;text-transform:uppercase;letter-spacing:.34em;font-size:12px;color:rgba(255,255,255,.48)}h1{margin:0;text-transform:uppercase;letter-spacing:0;font-weight:900;line-height:.69;font-size:clamp(80px,14.6vw,250px)}.byour{display:block;color:#f4f6f8;text-shadow:0 14px 44px rgba(255,255,255,.13)}.site{display:block;margin-left:48%;margin-top:-.03em;font-size:.52em;background:linear-gradient(180deg,#80e5ff,#209ddd);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none;filter:drop-shadow(0 0 28px rgba(104,221,248,.42))}.side{display:block;margin-left:34%;margin-top:-.27em;font-family:Georgia,"Times New Roman",serif;font-style:italic;font-weight:400;text-transform:none;font-size:.64em;color:rgba(179,154,246,.92);filter:drop-shadow(0 0 28px rgba(179,154,246,.32))}.intro{max-width:610px;margin:34px 0 0 0;font-family:"Courier New",monospace;font-size:clamp(18px,1.55vw,27px);line-height:1.42;color:white}.hero-actions{display:flex;gap:18px;flex-wrap:wrap;margin-top:34px}.status{align-self:end;border:1px solid var(--line);padding:20px 22px;min-height:124px;background:rgba(7,17,31,.46);backdrop-filter:blur(12px);font-family:"Courier New",monospace;text-transform:uppercase}.status-dot{display:inline-block;width:9px;height:9px;border-radius:999px;background:var(--cyan);box-shadow:0 0 18px var(--cyan);margin-right:12px}.status strong{display:block;margin-top:22px;color:var(--cyan);font-size:15px}.status span{color:rgba(255,255,255,.72);font-size:13px}
+    .rail{position:absolute;left:clamp(18px,3.5vw,54px);top:20vh;bottom:9vh;width:1px;background:linear-gradient(transparent,rgba(255,255,255,.72),transparent)}.rail:before,.rail:after{content:"";position:absolute;left:-4px;width:9px;height:9px;border-radius:999px;background:var(--cyan);box-shadow:0 0 16px var(--cyan)}.rail:before{top:14%}.rail:after{bottom:3%}.scroll{position:absolute;left:clamp(50px,5vw,86px);bottom:8vh;font-family:"Courier New",monospace;text-transform:uppercase;color:rgba(255,255,255,.62);font-size:13px}
+    section{position:relative;scroll-margin-top:112px;border-top:1px solid var(--line);padding-top:clamp(76px,9vw,132px);padding-bottom:clamp(76px,9vw,132px)}.wrap{max-width:1320px;margin:auto}.split>div:first-child{position:sticky;top:126px;align-self:start}.section-kicker{font-family:"Courier New",monospace;text-transform:uppercase;color:var(--cyan);font-size:13px;letter-spacing:.18em;margin:0 0 18px}.section-title{margin:0;max-width:900px;font-size:clamp(36px,4.6vw,74px);line-height:1;letter-spacing:0}.split .section-title{font-size:clamp(34px,4.1vw,66px)}.split{display:grid;grid-template-columns:.78fr 1.22fr;gap:clamp(34px,6vw,84px)}.copy{color:rgba(255,255,255,.68);font-size:18px;line-height:1.75}.service-grid{display:grid;grid-template-columns:1.08fr .92fr;grid-auto-rows:minmax(230px,auto);gap:14px;background:transparent;border:0}.service-grid .service:first-child{grid-row:span 2}.service-grid .service:nth-child(3){grid-row:span 2}.stack-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}.stack-grid span{display:flex;align-items:center;min-height:78px;background:#050b16;padding:0 24px;font-family:"Courier New",monospace;text-transform:uppercase;color:rgba(255,255,255,.82)}.stack-grid span:nth-child(3n+1){color:var(--cyan)}.stack-grid span:nth-child(3n+2){color:var(--violet)}.service{position:relative;isolation:isolate;overflow:hidden;border:1px solid rgba(255,255,255,.13);background:linear-gradient(135deg,rgba(7,17,31,.94),rgba(7,17,31,.62));padding:34px;min-height:250px;transition:transform .25s ease,border-color .25s ease,background .25s ease}.service:before{content:"";position:absolute;inset:auto -18% -35% 18%;height:58%;background:radial-gradient(circle,rgba(104,221,248,.28),transparent 62%);opacity:.28;z-index:-1;transition:.25s}.service:after{content:"";position:absolute;right:24px;top:22px;width:72px;height:72px;border-top:1px solid rgba(104,221,248,.3);border-right:1px solid rgba(179,154,246,.28);opacity:.8}.service:nth-child(even){margin-top:22px}.service:hover{transform:translateY(-6px);border-color:rgba(104,221,248,.5);background:linear-gradient(135deg,rgba(8,26,43,.95),rgba(9,14,31,.74));box-shadow:0 26px 80px rgba(0,0,0,.24)}.service:hover:before{opacity:.62}.service small,.case small{font-family:"Courier New",monospace;color:rgba(255,255,255,.42)}.service h3{font-size:clamp(26px,2.5vw,40px);line-height:1;margin:70px 0 16px}.service p,.case p{color:rgba(255,255,255,.66);line-height:1.7}.service .tag{display:inline-flex;margin-top:26px;border:1px solid rgba(104,221,248,.32);padding:8px 10px;font-family:"Courier New",monospace;font-size:12px;color:var(--cyan);background:rgba(104,221,248,.055)}
+    .cases{display:grid;grid-template-columns:minmax(0,1.28fr) minmax(300px,.72fr);gap:18px;margin-top:46px;align-items:stretch}.case{position:relative;min-height:360px;border:1px solid var(--line);background:linear-gradient(135deg,rgba(255,255,255,.075),rgba(255,255,255,.018));padding:34px;overflow:hidden;transition:transform .25s ease,border-color .25s ease,background .25s ease}.case:before{content:"";position:absolute;left:24px;right:24px;top:24px;height:1px;background:linear-gradient(90deg,var(--cyan),transparent 70%);opacity:.35}.case:hover{transform:translateY(-5px);border-color:rgba(179,154,246,.42);background:linear-gradient(135deg,rgba(104,221,248,.1),rgba(179,154,246,.045))}.case.feature{min-height:570px;padding:42px}.case.feature:after{content:"";position:absolute;inset:auto -8% -28% 28%;height:60%;background:url('public/hero-reference.webp') center/cover no-repeat;opacity:.24;filter:blur(.4px) saturate(1.16) contrast(1.04);mix-blend-mode:screen;clip-path:polygon(10% 0,100% 8%,86% 100%,0 86%)}.case h3{position:relative;margin:86px 0 18px;font-size:clamp(30px,4vw,62px);line-height:.95}.case.feature h3{max-width:660px;font-size:clamp(46px,6.4vw,94px)}.case p{position:relative;max-width:620px}.case-link{position:relative;display:inline-flex;margin-top:24px;font-family:"Courier New",monospace;text-transform:uppercase;font-size:13px;color:var(--cyan);border-bottom:1px solid rgba(104,221,248,.55);padding-bottom:6px}.case-link:hover{color:white;border-color:white}.case-stack{display:grid;gap:18px}.case-stack .case:nth-child(2){margin-top:22px}.case-stack .case:nth-child(2):hover{transform:translateY(-5px)}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:18px}.metric{background:linear-gradient(180deg,#050b16,rgba(7,17,31,.82));padding:24px}.metric strong{display:block;font-size:38px}.metric span{font-family:"Courier New",monospace;text-transform:uppercase;font-size:12px;color:rgba(255,255,255,.52)}
+    .process{position:relative;display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:54px}.process:before{content:"";position:absolute;left:6%;right:6%;top:50%;height:1px;background:linear-gradient(90deg,transparent,var(--cyan),var(--violet),transparent);opacity:.45}.step{position:relative;min-height:230px;border:1px solid rgba(255,255,255,.13);background:rgba(7,17,31,.55);padding:26px 22px;overflow:hidden}.step:nth-child(even){transform:translateY(34px)}.step:before{content:"";position:absolute;right:-28px;bottom:-38px;width:118px;height:118px;border:1px solid rgba(104,221,248,.18);transform:rotate(45deg)}.step span{font-family:"Courier New",monospace;color:var(--violet);font-size:clamp(34px,4.2vw,64px);line-height:.8;opacity:.62}.step strong{display:block;margin-top:72px;font-size:25px}.step:hover{border-color:rgba(104,221,248,.42);background:rgba(104,221,248,.055);box-shadow:0 18px 58px rgba(0,0,0,.22)}.about{background:linear-gradient(90deg,rgba(104,221,248,.08),transparent 42%,rgba(179,154,246,.09))}.contact-band{display:grid;grid-template-columns:1fr auto;gap:34px;align-items:end}.contact-band h2{margin:0;font-size:clamp(42px,6.5vw,92px);line-height:.95}.contact-band p{max-width:640px}.marquee{max-width:100%;contain:paint;border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap;font-family:"Courier New",monospace;text-transform:uppercase;color:rgba(255,255,255,.55)}.marquee div{display:inline-block;padding:18px 0;animation:mar 24s linear infinite}.marquee span{margin-right:40px}.marquee b{color:var(--cyan);font-weight:400}@keyframes mar{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+    .contact-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(280px,.75fr);gap:18px;margin-top:42px}.contact-card{border:1px solid var(--line);background:rgba(7,17,31,.76);padding:28px}.contact-card h3{margin:0 0 18px;font-size:24px}.contact-list{display:grid;gap:12px}.contact-list a,.contact-row{display:flex;justify-content:space-between;gap:18px;border-bottom:1px solid rgba(255,255,255,.1);padding:14px 0;font-family:"Courier New",monospace;color:rgba(255,255,255,.78)}.contact-list a:hover{color:var(--cyan)}.contact-form{display:grid;gap:12px}.contact-form label{display:grid;gap:7px;font-family:"Courier New",monospace;text-transform:uppercase;font-size:12px;color:rgba(255,255,255,.58)}.form-hint{margin:0;color:rgba(255,255,255,.52);font-size:13px;line-height:1.45}.form-hint strong{color:var(--cyan);font-weight:400}.form-hint a,.chat-note a{color:var(--cyan);border-bottom:1px solid rgba(104,221,248,.45)}.form-hint a:hover,.chat-note a:hover{color:white;border-color:white}.contact-form input,.contact-form select,.contact-form textarea{width:100%;border:1px solid rgba(255,255,255,.16);background:#030611;color:white;padding:13px 12px;font:14px/1.45 Arial,Helvetica,sans-serif}.contact-form textarea{min-height:116px;resize:vertical}.contact-form .hidden-field{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}.form-status{min-height:20px;margin:2px 0 0;font-size:13px;color:rgba(255,255,255,.62);line-height:1.45}.form-status.ok{color:var(--cyan)}.form-status.error{color:#ff8b8b}.social-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.social-link{position:relative;min-height:86px;display:grid;place-items:center;gap:9px;border:1px solid rgba(255,255,255,.14);background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.015));font-family:"Courier New",monospace;text-transform:uppercase;font-size:12px;color:rgba(255,255,255,.76);transition:.2s;overflow:hidden}.social-link:before{content:"";position:absolute;inset:auto 12% -32% 12%;height:64%;background:var(--social-glow,rgba(104,221,248,.25));filter:blur(24px);opacity:.18;transition:.2s}.social-link svg{position:relative;width:26px;height:26px;stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}.social-link span{position:relative}.social-link:hover{transform:translateY(-2px);border-color:var(--social-color,var(--cyan));color:var(--social-color,var(--cyan));background:rgba(104,221,248,.06)}.social-link:hover:before{opacity:.42}.social-link.instagram{--social-color:#b39af6;--social-glow:rgba(179,154,246,.5)}.social-link.whatsapp{--social-color:#68ddf8;--social-glow:rgba(104,221,248,.48)}.social-link.email{--social-color:#ffffff;--social-glow:rgba(255,255,255,.32)}.social-link.pending{opacity:.78}.chat-launcher{position:fixed;right:22px;bottom:22px;z-index:50;width:68px;height:68px;border:1px solid rgba(104,221,248,.55);background:linear-gradient(135deg,var(--cyan),var(--violet));color:#030611;display:grid;place-items:center;box-shadow:0 0 44px rgba(104,221,248,.34);cursor:pointer}.chat-launcher svg{width:34px;height:34px;stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}.chat-launcher:hover{background:white;color:#030611}.chat-panel{position:fixed;right:22px;top:22px;bottom:104px;z-index:50;width:min(390px,calc(100vw - 36px));border:1px solid rgba(255,255,255,.18);background:rgba(5,11,22,.94);backdrop-filter:blur(18px);box-shadow:0 24px 80px rgba(0,0,0,.42);display:none;overflow:hidden}.chat-panel.open{display:flex;flex-direction:column}.chat-head{display:flex;align-items:center;justify-content:space-between;flex:0 0 auto;border-bottom:1px solid var(--line);padding:18px 20px}.chat-head strong{font-family:"Courier New",monospace;text-transform:uppercase;color:var(--cyan);font-size:13px}.chat-close{border:0;background:transparent;color:white;font-size:26px;cursor:pointer}.chat-body{display:flex;flex-direction:column;flex:1 1 auto;padding:20px;overflow:hidden;min-height:0}.chat-message{margin:0 0 12px;color:rgba(255,255,255,.72);font-size:13px;line-height:1.45}.chat-log{flex:1 1 auto;min-height:0;max-height:none;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:rgba(104,221,248,.45) rgba(255,255,255,.045);border:1px solid rgba(104,221,248,.2);background:rgba(104,221,248,.045);padding:12px;display:grid;align-content:start;gap:10px;margin:12px 0}.chat-bubble{max-width:92%;padding:10px 11px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.055);color:rgba(255,255,255,.78);font-size:13px;line-height:1.45}.chat-bubble strong{display:block;margin-bottom:5px;font-family:"Courier New",monospace;text-transform:uppercase;font-size:11px;color:var(--cyan)}.chat-bubble.user{justify-self:end;border-color:rgba(179,154,246,.32);background:rgba(179,154,246,.09)}.chat-bubble.ai{justify-self:start}.chat-bubble.loading{opacity:.78}.chat-suggestions{flex:0 0 auto;margin:10px 0 8px}.chat-suggestions summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:38px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.035);padding:0 11px;font-family:"Courier New",monospace;text-transform:uppercase;font-size:11px;color:rgba(255,255,255,.68);cursor:pointer}.chat-suggestions summary::-webkit-details-marker{display:none}.chat-suggestions summary:after{content:"+";color:var(--cyan);font-size:16px}.chat-suggestions[open] summary:after{content:"-"}.chat-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:8px 0 0}.chat-option{min-height:46px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.04);color:white;padding:10px;text-align:left;font-family:"Courier New",monospace;font-size:12px;line-height:1.25;cursor:pointer}.chat-option:hover,.chat-option.active{border-color:var(--cyan);color:var(--cyan)}.chat-contact{width:100%;border:1px solid rgba(255,255,255,.16);background:#030611;color:white;padding:12px;font:14px/1.5 Arial,Helvetica,sans-serif;margin-bottom:10px}.chat-input{flex:0 0 auto;width:100%;min-height:74px;max-height:110px;resize:none;overflow:auto;scrollbar-width:none;border:1px solid rgba(255,255,255,.16);background:#030611;color:white;padding:12px;font:14px/1.5 Arial,Helvetica,sans-serif}.form-submit{position:relative;justify-self:center;width:auto;margin-top:6px;min-height:48px;border:1px solid rgba(104,221,248,.72);border-radius:8px;background:linear-gradient(135deg,var(--cyan),#8ee8ff);color:#030611;padding:0 28px;font-family:"Courier New",monospace;text-transform:uppercase;letter-spacing:.04em;cursor:pointer;box-shadow:0 14px 34px rgba(104,221,248,.16);transition:transform .18s ease,box-shadow .18s ease,background .18s ease}.form-submit:hover{transform:translateY(-2px);background:linear-gradient(135deg,#ffffff,var(--cyan));box-shadow:0 18px 46px rgba(104,221,248,.26)}.form-submit:disabled{opacity:.58;cursor:wait;transform:none}.chat-send,.chat-ask{width:100%;margin-top:12px;min-height:48px;border:0;background:var(--cyan);color:#030611;font-family:"Courier New",monospace;text-transform:uppercase;cursor:pointer}.chat-send:disabled,.chat-ask:disabled{opacity:.58;cursor:wait}.chat-note{flex:0 0 auto;margin:12px 0 0;font-size:12px;color:rgba(255,255,255,.46);line-height:1.45}.chat-panel.chat-started .chat-message{display:none}.chat-panel.chat-started .chat-log{min-height:250px}.chat-panel.chat-started .chat-suggestions[open] + .chat-log{min-height:120px}.chat-log::-webkit-scrollbar{width:6px}.chat-log::-webkit-scrollbar-track{background:rgba(255,255,255,.045)}.chat-log::-webkit-scrollbar-thumb{background:rgba(104,221,248,.38);border-radius:999px}.chat-log::-webkit-scrollbar-thumb:hover{background:rgba(104,221,248,.62)}.chat-input::-webkit-scrollbar{display:none}
+    .site-footer{position:relative;overflow:hidden;border-top:1px solid var(--line);background:linear-gradient(180deg,rgba(3,6,17,.78),#030611);padding:58px 0 24px}.site-footer:before{content:"BYOURSITE";position:absolute;right:2vw;bottom:-.22em;font-size:clamp(76px,14vw,220px);font-weight:900;line-height:1;color:rgba(255,255,255,.025);letter-spacing:0;pointer-events:none}.footer-grid{display:grid;grid-template-columns:1.25fr .85fr .9fr;gap:34px;align-items:start}.footer-brand img{width:190px;height:auto;filter:drop-shadow(0 0 18px rgba(104,221,248,.16))}.footer-brand p{max-width:390px;margin:18px 0 0;color:rgba(255,255,255,.62);line-height:1.65}.footer-block h3{margin:0 0 16px;font-size:13px;font-family:"Courier New",monospace;text-transform:uppercase;color:var(--cyan);letter-spacing:.14em}.footer-links{display:grid;gap:10px;font-family:"Courier New",monospace;text-transform:uppercase;font-size:12px}.footer-links a{color:rgba(255,255,255,.64)}.footer-links a:hover{color:var(--cyan)}.footer-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.footer-icon{min-height:48px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.025);color:rgba(255,255,255,.72);transition:.2s}.footer-icon:hover{transform:translateY(-2px);border-color:var(--cyan);color:var(--cyan);background:rgba(104,221,248,.07)}.footer-icon svg{width:21px;height:21px;stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}.footer-bottom{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:34px;padding-top:18px;border-top:1px solid rgba(255,255,255,.08);font-family:"Courier New",monospace;text-transform:uppercase;font-size:11px;color:rgba(255,255,255,.42)}
+    @media (max-width:1100px){header{height:auto;min-height:112px;grid-template-columns:auto auto;align-content:center;padding-top:12px;padding-bottom:10px}nav{grid-column:1/-1;display:flex;justify-content:flex-start;gap:24px;overflow-x:auto;padding:0 0 8px;scrollbar-width:thin}.hero-layout{grid-template-columns:1fr}.side-note{display:none}.status{max-width:320px}.hero:before{width:94vw;right:-42vw;opacity:.05}.rail,.scroll{display:none}.split,.cases{grid-template-columns:1fr}.split>div:first-child{position:static}.service-grid,.process,.metrics,.stack-grid{grid-template-columns:1fr}.service-grid .service:first-child,.service-grid .service:nth-child(3){grid-row:auto}.service:nth-child(even){margin-top:0}.case-stack .case:nth-child(2),.case-stack .case:nth-child(2):hover,.step:nth-child(even){transform:none}.case-stack .case:nth-child(2){margin-top:0}.process:before{display:none}.service,.step{min-height:auto}.step strong{margin-top:34px}.contact-band{grid-template-columns:1fr}.social-grid{grid-template-columns:1fr}.case.feature{min-height:430px}.footer-grid{grid-template-columns:1fr}.footer-actions{max-width:360px}}
+    @media (max-width:760px){.contact-grid{grid-template-columns:1fr}}
+    @media (max-width:620px){header{min-height:112px;grid-template-columns:1fr auto}nav{font-size:12px;gap:18px}.brand img{width:168px}.header-cta{min-height:44px;padding:0 14px;font-size:11px}.hero{min-height:auto;padding-top:52px}.micro{text-align:left}.site{margin-left:22%}.side{margin-left:9%}.intro{font-size:18px}.hero-actions .btn{width:100%}.service,.case{padding:24px}.case h3{margin-top:46px}.case.feature:after{inset:auto -45% -18% -4%;height:45%}.metric strong{font-size:30px}.chat-panel{right:12px;top:12px;bottom:92px;width:calc(100vw - 24px)}.chat-body{padding:16px}.chat-log{min-height:0;max-height:none}.chat-bubble{font-size:12.5px}}
+    .hero{--mx:72%;--my:38%;overflow:hidden}.hero:after{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(circle at var(--mx) var(--my),rgba(104,221,248,.16),transparent 26%),radial-gradient(circle at calc(var(--mx) + 12%) calc(var(--my) + 8%),rgba(179,154,246,.13),transparent 22%);mix-blend-mode:screen;opacity:.72;transition:opacity .3s ease}.hero:before{transition:transform .5s ease,opacity .5s ease}.hero-layout{z-index:1}.hero-center h1 span{will-change:transform,opacity}.hero.ready .byour{animation:heroRise .8s cubic-bezier(.2,.8,.2,1) both}.hero.ready .site{animation:heroRise .85s cubic-bezier(.2,.8,.2,1) .08s both}.hero.ready .side{animation:heroFloat 1s cubic-bezier(.2,.8,.2,1) .15s both}.hero.ready .micro,.hero.ready .intro,.hero.ready .hero-actions,.hero.ready .status,.hero.ready .side-note{animation:softReveal .75s ease both}.hero.ready .intro{animation-delay:.2s}.hero.ready .hero-actions{animation-delay:.32s}.hero.ready .status{animation-delay:.42s}@keyframes heroRise{from{opacity:0;transform:translateY(42px) scale(.985);filter:blur(8px)}to{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}}@keyframes heroFloat{from{opacity:0;transform:translateY(28px) rotate(-2deg);filter:blur(8px)}to{opacity:1;transform:translateY(0) rotate(0);filter:blur(0)}}@keyframes softReveal{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}nav a.is-active{color:white}nav a.is-active:after{transform:scaleX(1);background:linear-gradient(90deg,var(--cyan),var(--violet))}.btn{position:relative;overflow:hidden}.btn:after{content:"";position:absolute;inset:-1px auto -1px -45%;width:42%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.48),transparent);transform:skewX(-18deg);opacity:0;transition:transform .55s ease,opacity .25s ease}.btn:hover:after{transform:translateX(360%) skewX(-18deg);opacity:.72}.service-grid,.cases,.process,.contact-grid{perspective:1200px}.service,.case,.step,.contact-card,.social-link,.metric{will-change:transform,border-color,box-shadow}.service:hover,.contact-card:hover{box-shadow:0 30px 90px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.04)}.case{box-shadow:inset 0 1px 0 rgba(255,255,255,.045)}.case.feature:after{transition:transform .55s ease,opacity .55s ease}.case.feature:hover:after{transform:translate3d(14px,-8px,0) scale(1.025);opacity:.34}.metric{transition:transform .22s ease,border-color .22s ease}.metric:hover{transform:translateY(-4px);background:linear-gradient(180deg,rgba(104,221,248,.08),rgba(7,17,31,.82))}.stack-grid span{transition:background .2s ease,color .2s ease,padding-left .2s ease}.stack-grid span:hover{background:rgba(104,221,248,.07);padding-left:32px;color:white}.reveal{opacity:0;transform:translateY(26px);filter:blur(3px);transition:opacity .58s ease,transform .58s cubic-bezier(.2,.8,.2,1),filter .58s ease;transition-delay:var(--reveal-delay,0ms)}.reveal.in-view{opacity:1;transform:translateY(0);filter:blur(0)}.section-title.reveal{transform:translateY(26px)}.service.reveal:nth-child(even){transform:translateY(44px)}.service.reveal.in-view:nth-child(even){transform:translateY(22px)}@media (max-width:1100px){.service.reveal:nth-child(even),.service.reveal.in-view:nth-child(even){transform:translateY(0)}.hero:after{opacity:.4}.stack-grid span:hover{padding-left:24px}}@media (prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none;filter:none}}
+    .proof-strip{display:grid;grid-template-columns:1.1fr repeat(3,.8fr);gap:1px;margin-top:28px;background:var(--line);border:1px solid var(--line)}.proof-item{min-height:118px;background:linear-gradient(135deg,rgba(7,17,31,.92),rgba(7,17,31,.66));padding:22px;position:relative;overflow:hidden}.proof-item:before{content:"";position:absolute;right:18px;top:18px;width:42px;height:42px;border-top:1px solid rgba(104,221,248,.28);border-right:1px solid rgba(179,154,246,.25)}.proof-item strong{display:block;font-size:clamp(24px,2.6vw,42px);line-height:1;color:white}.proof-item span{display:block;margin-top:10px;font-family:"Courier New",monospace;text-transform:uppercase;font-size:11px;color:rgba(255,255,255,.52);line-height:1.4}.why-grid,.outcome-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:42px}.why-card,.outcome-card{position:relative;min-height:230px;border:1px solid rgba(255,255,255,.13);background:linear-gradient(145deg,rgba(7,17,31,.82),rgba(7,17,31,.42));padding:28px;overflow:hidden}.why-card:before,.outcome-card:before{content:"";position:absolute;left:24px;top:24px;width:42px;height:1px;background:var(--cyan)}.why-card strong,.outcome-card strong{display:block;margin-top:68px;font-size:24px;line-height:1.1}.why-card p,.outcome-card p{margin:16px 0 0;color:rgba(255,255,255,.66);line-height:1.6}.why-card span,.outcome-card span{font-family:"Courier New",monospace;color:rgba(179,154,246,.65);font-size:12px}.project-frame{position:absolute;left:28%;right:-7%;bottom:-30%;height:58%;border:1px solid rgba(104,221,248,.18);background:linear-gradient(180deg,rgba(3,6,17,.28),rgba(3,6,17,.72));backdrop-filter:blur(1px);opacity:.72;clip-path:polygon(8% 0,100% 7%,92% 100%,0 90%)}.project-frame:before{content:"";position:absolute;left:16px;right:16px;top:14px;height:10px;border-radius:20px;background:linear-gradient(90deg,var(--cyan) 0 10px,rgba(255,255,255,.24) 10px 22px,var(--violet) 22px 34px,transparent 34px)}.project-frame:after{content:"";position:absolute;left:20px;right:20px;top:44px;bottom:18px;background:linear-gradient(90deg,rgba(104,221,248,.16),transparent 38%),repeating-linear-gradient(180deg,rgba(255,255,255,.12) 0 1px,transparent 1px 18px)}.case.feature .project-frame{mix-blend-mode:screen}.case-stack .case .project-frame{left:auto;right:-18%;bottom:-34%;width:58%;height:50%;opacity:.26}.final-cta{border-top:1px solid var(--line);padding:clamp(72px,8vw,118px) 0;background:linear-gradient(90deg,rgba(104,221,248,.08),rgba(179,154,246,.08),transparent)}.final-cta-box{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center;border:1px solid rgba(104,221,248,.22);background:rgba(7,17,31,.74);padding:clamp(28px,4vw,52px);position:relative;overflow:hidden}.final-cta-box:after{content:"BY YOUR SIDE";position:absolute;right:24px;bottom:-.2em;font-size:clamp(50px,10vw,140px);font-weight:900;color:rgba(255,255,255,.035);line-height:1;pointer-events:none}.final-cta h2{position:relative;margin:0;font-size:clamp(38px,5.2vw,84px);line-height:.96}.final-cta p{position:relative;max-width:650px;color:rgba(255,255,255,.66);line-height:1.7}@media (max-width:1100px){.proof-strip,.why-grid,.outcome-grid{grid-template-columns:1fr 1fr}.project-frame{opacity:.42}.final-cta-box{grid-template-columns:1fr}}@media (max-width:620px){.proof-strip,.why-grid,.outcome-grid{grid-template-columns:1fr}.why-card,.outcome-card{min-height:auto}.final-cta-box{padding:26px}.project-frame{display:none}}
+  </style>
+  <script>
+    window.byoursiteTurnstileSiteKey = function () {
+      return ['localhost', '127.0.0.1', 'byoursite.test'].includes(window.location.hostname)
+        ? '1x00000000000000000000AA'
+        : '0x4AAAAAAElNnyBXAipciqGQ';
+    };
+    window.byoursiteRenderTurnstile = function () {
+      const widget = document.querySelector('#contact-turnstile');
+      if (!widget || !window.turnstile || widget.dataset.rendered === 'true') return;
+      window.turnstile.render(widget, {
+        sitekey: window.byoursiteTurnstileSiteKey(),
+        theme: 'dark'
+      });
+      widget.dataset.rendered = 'true';
+    };
+    window.byoursiteLoadTurnstile = function () {
+      if (window.turnstile) {
+        window.byoursiteRenderTurnstile();
+        return;
+      }
+      if (document.querySelector('script[data-turnstile-loader]')) return;
+      const script = document.createElement('script');
+      script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?onload=byoursiteRenderTurnstile&render=explicit';
+      script.async = true;
+      script.defer = true;
+      script.dataset.turnstileLoader = 'true';
+      document.head.appendChild(script);
+    };
+    window.byoursiteInitTurnstileLazy = function () {
+      const form = document.querySelector('#form-contatti');
+      if (!form) return;
+      const load = () => window.byoursiteLoadTurnstile();
+      form.addEventListener('focusin', load, { once: true });
+      form.addEventListener('pointerdown', load, { once: true });
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          if (!entries.some((entry) => entry.isIntersecting)) return;
+          observer.disconnect();
+          load();
+        }, { rootMargin: '260px 0px' });
+        observer.observe(form);
+      }
+    };
+  </script>
+</head>
+<body>
+  <div class="noise"></div><div class="grid"></div><div class="glow"></div>
+  <div class="page">
+    <header class="shell">
+      <a class="brand" href="#top" aria-label="BYOURSITE"><img src="public/logo-byoursite-master.svg" width="1320" height="420" alt="BYOURSITE" /></a>
+      <nav aria-label="Navigazione"><a href="#servizi">Servizi</a><a href="#progetti">Progetti</a><a href="#stack">Stack</a><a href="#metodo">Metodo</a><a href="#esperienza">Esperienza</a><a href="#contatti">Contatti</a></nav>
+      <a class="btn header-cta" href="#form-contatti">Parliamone -></a>
+    </header>
+
+    <main>
+      <section id="top" class="hero shell">
+        <div class="rail"></div><div class="scroll">Scroll</div>
+        <div class="hero-layout">
+          <aside class="side-note">Il tuo <span class="cyan">sito</span>.<br>Al tuo <span class="violet">fianco</span>.<span class="rule"></span>Web su misura: idea, metodo, sviluppo e realta digitale.</aside>
+          <div class="hero-center">
+            <p class="micro">Web solutions tailored to you</p>
+            <h1><span class="byour">BYOUR</span><span class="site">SITE</span><span class="side">Side</span></h1>
+            <p class="intro">BYOURSITE gioca su due idee: by your site, costruire il tuo sito, e by your side, farlo al tuo fianco. Un lavoro sartoriale nel web: mettere prima l'idea su carta, poi trasformarla insieme in una soluzione digitale concreta.</p>
+            <div class="hero-actions"><a class="btn primary" href="#form-contatti">Raccontami il progetto -></a><a class="btn" href="#progetti">Vedi direzione -></a></div>
+          </div>
+          <aside class="status"><span class="status-dot"></span><span>Disponibile</span><strong>Web developer</strong><span>Dal 2000</span></aside>
+        </div>
+      </section>
+
+      <div class="marquee"><div><span><b>Strategy</b> / visual identity / frontend / publishing</span><span><b>BYOURSITE</b> / il tuo sito, al tuo fianco</span><span><b>Strategy</b> / visual identity / frontend / publishing</span><span><b>BYOURSITE</b> / il tuo sito, al tuo fianco</span></div></div>
+
+      <section id="servizi" class="shell">
+        <div class="wrap split">
+          <div><p class="section-kicker">Servizi</p><h2 class="section-title">Soluzioni web sartoriali: dalla prima idea messa su carta a un sito o strumento digitale che risponde a esigenze reali.</h2></div>
+          <div class="service-grid">
+            <article class="service"><small>01 / Presence</small><h3>Siti vetrina</h3><p>Siti chiari per professionisti, aziende e piccole realta: contenuti ordinati, navigazione pulita e basi tecniche solide.</p><span class="tag">vetrina / portfolio</span></article>
+            <article class="service"><small>02 / Refresh</small><h3>Restyling e manutenzione</h3><p>Interventi su siti esistenti: pulizia, correzioni, aggiornamenti, contenuti, performance e continuita tecnica nel tempo.</p><span class="tag">update / supporto</span></article>
+            <article class="service"><small>03 / Tools</small><h3>Gestionali piccoli</h3><p>Interfacce per gestione interna, archivi, aree private e piccoli software web quando il sito deve diventare uno strumento operativo.</p><span class="tag">database / file</span></article>
+            <article class="service"><small>04 / Automazioni</small><h3>Flussi automatici</h3><p>Procedure e script per ridurre lavoro manuale: raccolta dati, notifiche, esportazioni, sincronizzazioni e controlli ripetitivi.</p><span class="tag">processi / dati</span></article>
+            <article class="service"><small>05 / Integration</small><h3>Integrazioni API</h3><p>Collegamenti tra software, gestionali e piattaforme diverse, con API REST progettate, consumate e mantenute in modo pulito.</p><span class="tag">API REST / JSON</span></article>
+            <article class="service"><small>06 / Direction</small><h3>Consulenza tecnica</h3><p>Analisi tecnica prima di partire: struttura, dati, hosting, priorita, integrazioni e scelte sostenibili nel tempo.</p><span class="tag">analisi / hosting</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="progetti" class="shell">
+        <div class="wrap">
+          <p class="section-kicker">Work / Lab</p><h2 class="section-title">Esperienze reali e prototipi mirati: quando serve un sito, quando serve un gestionale, quando serve collegare sistemi diversi.</h2>
+          <div class="cases">
+            <article class="case feature"><small>Case reale / archivio digitale</small><h3>Gabriella Rossi, pittrice</h3><p>Presenza online per artista visiva, con galleria, sezioni editoriali e area privata. Il cuore tecnico del progetto e una gestione custom su file per conservare lo storico dei dipinti nel tempo, mantenendo il sito leggero e semplice da aggiornare.</p><a class="case-link" href="https://www.gabriellarossi.it/" target="_blank" rel="noreferrer">Apri il sito -></a><span class="project-frame" aria-hidden="true"></span></article>
+            <div class="case-stack">
+              <article class="case"><small>Progetto in sviluppo / WordPress</small><h3>AngleCandle</h3><p>Sito per brand artigianale di candele, in fase di costruzione. Il lavoro riguarda struttura, identita visiva, catalogo prodotti e gestione semplice dei contenuti, con una base pronta per evolvere verso vendita e ordini.</p><span class="project-frame" aria-hidden="true"></span></article>
+              <article class="case"><small>Concept lab / prodotto</small><h3>Mini archivio opere</h3><p>Un'evoluzione naturale del progetto artista: schede opera, filtri, stato disponibilita, immagini e storico. Piccolo, utile, pubblicabile.</p></article>
+            </div>
+          </div>
+          <div class="proof-strip"><div class="proof-item"><strong>Dal 2000</strong><span>Interfacce web, gestionali e soluzioni digitali</span></div><div class="proof-item"><strong>PHP</strong><span>Base storica e sviluppo su misura</span></div><div class="proof-item"><strong>SQL</strong><span>Dati, archivi e logiche gestionali</span></div><div class="proof-item"><strong>API</strong><span>REST, integrazioni e collegamenti</span></div></div>
+        </div>
+      </section>
+
+
+      <section id="perche" class="shell">
+        <div class="wrap">
+          <p class="section-kicker">Perche BYOURSITE</p>
+          <h2 class="section-title">Non solo grafica: un percorso chiaro per trasformare un'idea in uno strumento digitale utile.</h2>
+          <div class="why-grid">
+            <article class="why-card"><span>01 / Metodo</span><strong>Prima si chiarisce</strong><p>Obiettivo, contenuti, funzioni e priorita vengono messi in ordine prima di scrivere codice.</p></article>
+            <article class="why-card"><span>02 / Su misura</span><strong>Niente copia e incolla</strong><p>Framework e soluzioni pronte quando servono, sviluppo custom quando fa davvero la differenza.</p></article>
+            <article class="why-card"><span>03 / Tecnica</span><strong>Basi solide</strong><p>Struttura, dati, hosting, performance e manutenzione pensati per durare nel tempo.</p></article>
+            <article class="why-card"><span>04 / Fianco</span><strong>Scelte condivise</strong><p>Il cliente resta dentro il processo: capisce cosa si sta costruendo e perche.</p></article>
+          </div>
+        </div>
+      </section>
+      <section id="stack" class="shell stack-section">
+        <div class="wrap split">
+          <div><p class="section-kicker">Stack</p><h2 class="section-title">Stack pratico per siti, gestionali e integrazioni.</h2></div>
+          <div class="stack-grid">
+            <span>PHP</span><span>SQL</span><span>Database</span><span>API REST full</span><span>Integrazioni API</span><span>Interfacce gestionali</span><span>WordPress</span><span>HTML / CSS</span><span>JavaScript</span><span>Automazioni</span><span>Hosting</span><span>Manutenzione siti</span>
+          </div>
+        </div>
+      </section>
+      <section id="metodo" class="shell">
+        <div class="wrap"><p class="section-kicker">Metodo</p><h2 class="section-title">Prima l'idea prende forma su carta. Poi diventa interfaccia, codice e realta digitale.</h2><div class="process"><div class="step"><span>01</span><strong>Idea</strong></div><div class="step"><span>02</span><strong>Carta</strong></div><div class="step"><span>03</span><strong>Prototipo</strong></div><div class="step"><span>04</span><strong>Sviluppo</strong></div><div class="step"><span>05</span><strong>Realta</strong></div></div></div>
+      </section>
+
+      <section id="cosa-ottieni" class="shell">
+        <div class="wrap">
+          <p class="section-kicker">Cosa ottieni</p>
+          <h2 class="section-title">Un sito chiaro, gestibile e pronto a crescere quando il progetto lo richiede.</h2>
+          <div class="outcome-grid">
+            <article class="outcome-card"><span>01</span><strong>Presenza chiara</strong><p>Messaggi ordinati, navigazione semplice e pagine pensate per far capire subito cosa offri.</p></article>
+            <article class="outcome-card"><span>02</span><strong>Gestione semplice</strong><p>Contenuti, archivi o piccole aree operative progettate per non diventare un peso.</p></article>
+            <article class="outcome-card"><span>03</span><strong>Tecnica pulita</strong><p>Codice, dati, form, integrazioni e hosting tenuti sotto controllo fin dall'inizio.</p></article>
+            <article class="outcome-card"><span>04</span><strong>Supporto reale</strong><p>Dopo la pubblicazione puoi evolvere, correggere e migliorare senza ripartire da zero.</p></article>
+          </div>
+        </div>
+      </section>
+      <section id="esperienza" class="shell about">
+        <div class="wrap split"><div><p class="section-kicker">Esperienza</p><h2 class="section-title">Un laboratorio web sartoriale: framework, idee e customizzazioni al servizio dell'obiettivo.</h2></div><div class="copy"><p>BYOURSITE accompagna il cliente nel chiarire l'idea, darle struttura e scegliere gli strumenti giusti: sito vetrina, gestionale leggero, automazione, integrazione o API RESTful.</p><p>Il risultato non nasce da un modello preconfezionato, ma da una combinazione di esperienza, framework, sviluppo custom e attenzione alle esigenze concrete: cio che serve, nel modo piu sostenibile possibile.</p></div></div>
+      </section>
+
+      <section id="contatti" class="shell">
+        <div class="wrap">
+          <div class="contact-band"><div><p class="section-kicker">Contatti</p><h2>Mettiamo online la tua prossima idea.</h2><p class="copy">Racconta la tua idea anche se e ancora confusa: la mettiamo su carta, definiamo cosa serve davvero e la trasformiamo insieme in una soluzione web concreta.</p></div><a class="btn primary" href="#form-contatti">Vai al form -></a></div>
+          <div class="contact-grid">
+            <div class="contact-card"><h3>Scrivi dal sito</h3><form id="form-contatti" class="contact-form" action="contact.php" method="post"><p class="form-hint"><strong>*</strong> Campi obbligatori</p><label>Nome *<input name="name" autocomplete="name" required /></label><label>Email *<input name="email" type="email" autocomplete="email" required /></label><label>Recapito / WhatsApp<input name="contact" autocomplete="tel" inputmode="tel" pattern="[+0-9 ()/.-]{6,30}" title="Inserisci solo numeri, spazi e simboli + ( ) / . -" placeholder="Numero o WhatsApp, se preferisci" /></label><label>Richiesta *<select name="topic" required><option>Sito vetrina</option><option>Restyling sito</option><option>Gestionale o area privata</option><option>Automazione o integrazione API</option><option>Consulenza tecnica</option></select></label><label>Messaggio *<textarea name="message" required minlength="8" placeholder="Racconta in breve obiettivo, sito attuale se esiste, e cosa vorresti ottenere."></textarea></label><label class="hidden-field">Non compilare<input name="website" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="form_started_at" value="" /><div id="contact-turnstile" class="cf-turnstile" data-sitekey="" data-theme="dark"></div><p class="form-hint">I dati inviati saranno trattati per gestire e rispondere alla tua richiesta. Consulta la <a href="privacy.html">Privacy Policy</a>.</p><button class="form-submit" type="submit">Invia richiesta</button><p class="form-status" aria-live="polite"></p></form></div>
+            <div class="contact-card"><h3>Canali rapidi</h3><div class="social-grid"><a class="social-link instagram" href="https://www.instagram.com/byoursite" target="_blank" rel="noopener noreferrer" aria-label="Apri Instagram BYOURSITE in una nuova scheda"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="4"></rect><circle cx="12" cy="12" r="3.4"></circle><path d="M16.5 7.5h.01"></path></svg><span>Instagram</span></a><a class="social-link whatsapp" href="https://wa.me/393476806154" target="_blank" rel="noopener noreferrer" aria-label="Apri WhatsApp per contattare BYOURSITE"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 18.2 5 21l3.2-1.2A8 8 0 1 0 4 12.8"></path><path d="M9.2 8.8c.2-.5.5-.5.8-.5h.6c.2 0 .4.1.5.4l.7 1.6c.1.3.1.5-.1.7l-.4.5c.7 1.2 1.6 2.1 2.9 2.8l.5-.5c.2-.2.5-.2.7-.1l1.6.7c.3.1.4.3.4.6v.6c0 .3 0 .6-.5.8-.7.3-1.9.2-3.4-.6-1.8-.9-3.4-2.4-4.3-4.2-.8-1.5-.9-2.7-.6-3.4Z"></path></svg><span>WhatsApp</span></a><a class="social-link email" href="#form-contatti" aria-label="Vai al form contatti"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="16" height="12" rx="2"></rect><path d="m5 8 7 5 7-5"></path></svg><span>Email</span></a></div><p class="chat-note">Puoi scrivere su WhatsApp, passare da Instagram o usare il form per una richiesta piu completa.</p></div>
+          </div>
+        </div>
+      </section>
+      <section class="final-cta shell" aria-label="Invito finale">
+        <div class="wrap final-cta-box">
+          <div><p class="section-kicker">Pronto a partire</p><h2>Portiamo la tua idea dal dubbio alla prima versione pubblicabile.</h2><p>Partiamo da cio che hai: un'idea, un sito da sistemare, un processo da automatizzare o un gestionale da immaginare. Lo mettiamo in ordine e capiamo insieme la strada piu sensata.</p></div>
+          <a class="btn primary" href="#form-contatti">Raccontami il progetto -></a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer shell">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#top" aria-label="Torna a inizio pagina"><img src="public/logo-byoursite-master.svg" width="1320" height="420" alt="BYOURSITE" /></a>
+            <p>Soluzioni web su misura, dal sito vetrina alle integrazioni gestionali. Il tuo sito, al tuo fianco.</p>
+          </div>
+          <div class="footer-block">
+            <h3>Mappa</h3>
+            <div class="footer-links"><a href="#servizi">Servizi</a><a href="#progetti">Progetti</a><a href="#stack">Stack</a><a href="#metodo">Metodo</a><a href="#contatti">Contatti</a><a href="privacy.html">Privacy Policy</a><a href="cookie.html">Cookie Policy</a></div>
+          </div>
+          <div class="footer-block">
+            <h3>Canali</h3>
+            <div class="footer-actions"><a class="footer-icon" href="https://www.instagram.com/byoursite" target="_blank" rel="noopener noreferrer" aria-label="Apri Instagram BYOURSITE"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="4"></rect><circle cx="12" cy="12" r="3.4"></circle><path d="M16.5 7.5h.01"></path></svg></a><a class="footer-icon" href="https://wa.me/393476806154" target="_blank" rel="noopener noreferrer" aria-label="Apri WhatsApp BYOURSITE"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 18.2 5 21l3.2-1.2A8 8 0 1 0 4 12.8"></path><path d="M9.2 8.8c.2-.5.5-.5.8-.5h.6c.2 0 .4.1.5.4l.7 1.6c.1.3.1.5-.1.7l-.4.5c.7 1.2 1.6 2.1 2.9 2.8l.5-.5c.2-.2.5-.2.7-.1l1.6.7c.3.1.4.3.4.6v.6c0 .3 0 .6-.5.8-.7.3-1.9.2-3.4-.6-1.8-.9-3.4-2.4-4.3-4.2-.8-1.5-.9-2.7-.6-3.4Z"></path></svg></a><a class="footer-icon" href="#form-contatti" aria-label="Vai al form contatti"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="16" height="12" rx="2"></rect><path d="m5 8 7 5 7-5"></path></svg></a></div>
+          </div>
+        </div>
+        <div class="footer-bottom"><span>&copy; 2026 BYOURSITE · Progetto indipendente</span><span><a href="privacy.html">Privacy Policy</a> · <a href="cookie.html">Cookie Policy</a></span></div>
+      </div>
+    </footer>
+  </div>
+    <button class="chat-launcher" type="button" aria-label="Apri assistente BYOURSITE" aria-expanded="false">
+    <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+      <path d="M16 4v4" />
+      <path d="M12.5 4h7" />
+      <rect x="7" y="9" width="18" height="15" rx="4" />
+      <path d="M10" />
+      <circle cx="12.5" cy="16" r="1.4" fill="currentColor" stroke="none" />
+      <circle cx="19.5" cy="16" r="1.4" fill="currentColor" stroke="none" />
+      <path d="M13 20h6" />
+      <path d="M4 15v5" />
+      <path d="M28 15v5" />
+      <path d="M11 27h10" />
+    </svg>
+  </button>
+  <aside class="chat-panel" aria-label="Chat AI BYOURSITE">
+    <div class="chat-head"><strong>Chat AI BYOURSITE</strong><button class="chat-close" type="button" aria-label="Chiudi chat AI">×</button></div>
+    <div class="chat-body">
+      <p class="chat-message">Scrivi una domanda libera su sito, costi, manutenzione, gestionali o integrazioni.</p>
+      <details class="chat-suggestions" open>
+        <summary>Domande rapide</summary>
+        <div class="chat-options" aria-label="Domande di esempio">
+        <button class="chat-option" type="button" data-prompt="Vorrei sapere quanto costa fare un sito per il mio negozio di persiane e infissi">Costo sito negozio</button>
+        <button class="chat-option" type="button" data-prompt="Mi serve un piccolo gestionale interno: potete aiutarmi?">Gestionale interno</button>
+        <button class="chat-option" type="button" data-prompt="Potete collegare il mio sito a API o software esterni?">API e integrazioni</button>
+        <button class="chat-option" type="button" data-prompt="Come si parte con un progetto BYOURSITE?">Come si parte?</button>
+        </div>
+      </details>
+      <div class="chat-log" aria-live="polite"><div class="chat-bubble ai"><strong>BYOURSITE AI</strong><span>Fai una domanda e ti rispondo usando il contesto del sito.</span></div></div>
+      <textarea class="chat-input" placeholder="Esempio: posso spendere 200 euro per un sito?" maxlength="900"></textarea>
+      <button class="chat-ask" type="button">Chiedi all'AI</button>
+      <p class="chat-note">Chat AI sperimentale. Non inserire dati personali, sensibili o riservati. I contatti e l'invio richieste restano nella sezione Contatti.</p>
+    </div>
+  </aside>
+  <script>
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const hero = document.querySelector('.hero');
+    const navLinks = [...document.querySelectorAll('nav a[href^="#"]')];
+    const revealItems = [...document.querySelectorAll('.section-kicker, .section-title, .service, .case, .metric, .proof-item, .why-card, .outcome-card, .step, .contact-card, .stack-grid span, .final-cta-box, .footer-grid > *')];
+
+    revealItems.forEach((element, index) => {
+      element.classList.add('reveal');
+      element.style.setProperty('--reveal-delay', (Math.min(index % 6, 5) * 55) + 'ms');
+    });
+
+    if (hero) {
+      requestAnimationFrame(() => hero.classList.add('ready'));
+      hero.addEventListener('pointermove', (event) => {
+        const rect = hero.getBoundingClientRect();
+        hero.style.setProperty('--mx', (((event.clientX - rect.left) / rect.width) * 100).toFixed(2) + '%');
+        hero.style.setProperty('--my', (((event.clientY - rect.top) / rect.height) * 100).toFixed(2) + '%');
+      });
+    }
+
+    let revealTicking = false;
+    function revealVisibleItems() {
+      revealTicking = false;
+      const limit = window.innerHeight * 0.94;
+      revealItems.forEach((element) => {
+        if (element.classList.contains('in-view')) return;
+        const rect = element.getBoundingClientRect();
+        if (rect.top < limit && rect.bottom > 0) element.classList.add('in-view');
+      });
+    }
+    function queueRevealCheck() {
+      if (revealTicking) return;
+      revealTicking = true;
+      requestAnimationFrame(revealVisibleItems);
+    }
+
+    if (!reduceMotion && 'IntersectionObserver' in window) {
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.04, rootMargin: '0px 0px 12% 0px' });
+      revealItems.forEach((element) => revealObserver.observe(element));
+      window.addEventListener('scroll', queueRevealCheck, { passive: true });
+      window.addEventListener('resize', queueRevealCheck);
+      window.addEventListener('load', queueRevealCheck, { once: true });
+      setTimeout(revealVisibleItems, 80);
+      setTimeout(revealVisibleItems, 500);
+    } else {
+      revealItems.forEach((element) => element.classList.add('in-view'));
+    }
+
+    if ('IntersectionObserver' in window) {
+      const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          const id = entry.target.getAttribute('id');
+          navLinks.forEach((link) => link.classList.toggle('is-active', link.getAttribute('href') === '#' + id));
+        });
+      }, { threshold: 0.34 });
+      document.querySelectorAll('main section[id]').forEach((section) => sectionObserver.observe(section));
+    }
+    const launcher = document.querySelector('.chat-launcher');
+    const panel = document.querySelector('.chat-panel');
+    const closeChat = document.querySelector('.chat-close');
+    const options = [...document.querySelectorAll('.chat-option')];
+    const suggestions = document.querySelector('.chat-suggestions');
+    const input = document.querySelector('.chat-input');
+    const ask = document.querySelector('.chat-ask');
+    const chatLog = document.querySelector('.chat-log');
+    const contactForm = document.querySelector('.contact-form');
+    const chatHistory = [];
+    const formStartedAt = contactForm.querySelector('input[name="form_started_at"]');
+    if (formStartedAt) formStartedAt.value = Math.floor(Date.now() / 1000).toString();
+    if (window.byoursiteInitTurnstileLazy) window.byoursiteInitTurnstileLazy();
+
+
+    function toggleChat(open) {
+      panel.classList.toggle('open', open);
+      launcher.setAttribute('aria-expanded', String(open));
+      if (open) setTimeout(() => input.focus(), 80);
+    }
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[char]));
+    }
+
+    function scrollChat() {
+      chatLog.scrollTop = chatLog.scrollHeight;
+    }
+
+    function addMessage(role, text, loading = false) {
+      const bubble = document.createElement('div');
+      bubble.className = 'chat-bubble ' + role + (loading ? ' loading' : '');
+      const label = role === 'user' ? 'Tu' : 'BYOURSITE AI';
+      bubble.innerHTML = '<strong>' + label + '</strong><span>' + escapeHtml(text).replace(/\\n/g, '<br>') + '</span>';
+      chatLog.appendChild(bubble);
+      scrollChat();
+      return bubble;
+    }
+
+    function updateMessage(bubble, text) {
+      bubble.classList.remove('loading');
+      bubble.querySelector('span').innerHTML = escapeHtml(text).replace(/\\n/g, '<br>');
+      scrollChat();
+    }
+
+    async function askAi(question) {
+      const message = String(question || '').trim();
+      if (!message) {
+        addMessage('ai', 'Dimmi cosa vuoi realizzare, che sito hai in mente o quale dubbio vuoi chiarire.');
+        return;
+      }
+      input.value = '';
+      panel.classList.add('chat-started');
+      if (suggestions) suggestions.open = false;
+      addMessage('user', message);
+      ask.disabled = true;
+      const pendingMessage = addMessage('ai', 'Sto ragionando... un attimo, preparo una risposta sensata.', true);
+      try {
+        const response = await fetch('chat.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify({ message, history: chatHistory.slice(-6) })
+        });
+        const data = await response.json();
+        if (!response.ok || !data.ok) throw new Error(data.message || 'Risposta non disponibile.');
+        chatHistory.push({ role: 'user', content: message }, { role: 'assistant', content: data.reply });
+        updateMessage(pendingMessage, data.reply);
+      } catch (error) {
+        updateMessage(pendingMessage, error.message || 'Serve configurare la chiave API sul server prima di usare la chat reale.');
+      } finally {
+        ask.disabled = false;
+      }
+    }
+
+    async function submitContact(form, submitter) {
+      const status = form.querySelector('.form-status');
+      status.className = 'form-status';
+      status.textContent = 'Invio in corso...';
+      submitter.disabled = true;
+      try {
+        const response = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+        const data = await response.json();
+        status.classList.add(data.ok ? 'ok' : 'error');
+        status.textContent = data.message || (data.ok ? 'Richiesta inviata.' : 'Invio non riuscito.');
+        if (data.ok) form.reset();
+      } catch (error) {
+        status.classList.add('error');
+        status.textContent = 'Invio non disponibile: scrivi a info@byoursite.com.';
+      } finally {
+        submitter.disabled = false;
+      }
+    }
+
+    launcher.addEventListener('click', () => toggleChat(!panel.classList.contains('open')));
+    closeChat.addEventListener('click', () => toggleChat(false));
+    options.forEach((button) => {
+      button.addEventListener('click', () => {
+        input.value = button.dataset.prompt;
+        askAi(button.dataset.prompt);
+      });
+    });
+    ask.addEventListener('click', () => askAi(input.value));
+    input.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' && (event.ctrlKey || event.metaKey)) askAi(input.value);
+    });
+    contactForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      submitContact(event.currentTarget, event.submitter);
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

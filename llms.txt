@@ -1,0 +1,39 @@
+# BYOURSITE
+> BYOURSITE realizza siti web, restyling, piccoli gestionali, automazioni e integrazioni API per professionisti, aziende e attivita che vogliono trasformare un'idea in una presenza digitale concreta.
+
+BYOURSITE lavora con un approccio su misura: prima chiarisce obiettivi, contenuti e priorita, poi costruisce una soluzione web coerente con il progetto. Il nome richiama il doppio significato "by your site" e "by your side": il sito da realizzare e il supporto al fianco del cliente.
+
+## Pagine principali
+- [Home](https://byoursite.com/): panoramica dei servizi, metodo di lavoro, progetti, contatti e chat AI.
+- [Sitemap](https://byoursite.com/sitemap.xml): elenco degli URL canonici pubblici.
+
+## Servizi
+- Siti vetrina e landing page.
+- Restyling di siti esistenti.
+- WordPress leggero, quando adatto al progetto.
+- Piccoli gestionali web e aree private.
+- Automazioni e integrazioni API REST.
+- Manutenzione e consulenza tecnica.
+
+## Tecnologie
+- PHP
+- SQL e database
+- WordPress
+- HTML, CSS e JavaScript
+- API REST
+- Hosting e configurazioni server
+
+## Prezzi indicativi
+- Landing essenziale: 700-1.200 euro.
+- Sito vetrina base: 1.200-2.000 euro.
+- WordPress leggero: 1.000-1.800 euro.
+- Restyling semplice: 500-1.200 euro.
+- Manutenzione e interventi successivi: da valutare in base alla necessita.
+- Gestionale, area privata o API: da valutare in base a funzioni, dati, integrazioni e flussi.
+
+I prezzi sono indicativi e non vincolanti. Ogni progetto richiede una valutazione diretta prima di definire tempi, perimetro e preventivo.
+
+## Contatti
+- [Form contatti](https://byoursite.com/#form-contatti): canale consigliato per richieste strutturate.
+- [WhatsApp](https://wa.me/393476806154): contatto rapido.
+- [Instagram](https://www.instagram.com/byoursite): profilo social BYOURSITE.
