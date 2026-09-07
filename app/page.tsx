@@ -22,7 +22,7 @@ export default function Home() {
 
       <header className="relative z-10 flex min-h-24 items-center justify-between px-5 sm:px-8 lg:px-16">
         <a href="#top" className="flex items-center" aria-label="BYOURSITE home">
-          <img src="/logo-byoursite-header.jpg" alt="BYOURSITE" className="h-20 w-64 object-contain object-center sm:w-80" />
+          <img src="/logo-byoursite-header.png" alt="BYOURSITE" className="h-28 w-80 object-contain object-center sm:h-32 sm:w-96" />
         </a>
         <nav className="hidden items-center gap-10 font-mono text-sm uppercase text-white/82 lg:flex">
           <a href="#servizi" className="transition hover:text-cyan-300">Servizi</a>
@@ -142,3 +142,4 @@ export default function Home() {
     </main>
   );
 }
+
