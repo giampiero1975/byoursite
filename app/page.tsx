@@ -22,7 +22,7 @@ export default function Home() {
 
       <header className="relative z-10 flex min-h-24 items-center justify-between px-5 sm:px-8 lg:px-16">
         <a href="#top" className="flex items-center" aria-label="BYOURSITE home">
-          <img src="/logo-byoursite-master.jpg" alt="BYOURSITE" className="h-16 w-44 object-cover object-center sm:w-56" />
+          <img src="/logo-byoursite-header.jpg" alt="BYOURSITE" className="h-16 w-56 object-contain object-center sm:w-72" />
         </a>
         <nav className="hidden items-center gap-10 font-mono text-sm uppercase text-white/82 lg:flex">
           <a href="#servizi" className="transition hover:text-cyan-300">Servizi</a>
@@ -58,10 +58,10 @@ export default function Home() {
 
           <div className="order-1 lg:order-2">
             <p className="mb-5 text-right font-mono text-xs uppercase tracking-[0.34em] text-white/52">Web solutions</p>
-            <h1 className="relative font-sans text-[clamp(4.8rem,14vw,15.5rem)] font-black uppercase leading-[0.72] tracking-normal text-white">
-              <span className="block">BYOUR</span>
-              <span className="ml-[38%] block bg-gradient-to-r from-cyan-300 to-sky-500 bg-clip-text text-[0.52em] text-transparent drop-shadow-[0_0_28px_rgba(88,205,238,0.38)]">SITE</span>
-              <span className="-mt-[0.18em] ml-[18%] block font-serif text-[0.58em] font-normal italic normal-case text-violet-300/92 drop-shadow-[0_0_24px_rgba(172,142,255,0.28)]">Side</span>
+            <h1 className="relative font-sans text-[clamp(3.6rem,9vw,9.5rem)] font-black uppercase leading-[0.9] tracking-normal text-white">
+              <span className="block">Siti web</span>
+              <span className="-mt-2 block">gestionali</span>
+              <span className="ml-[28%] block w-max bg-gradient-to-r from-cyan-300 via-sky-500 to-violet-300 bg-clip-text text-transparent drop-shadow-[0_0_28px_rgba(88,205,238,0.38)]">e API</span>
             </h1>
           </div>
         </div>
