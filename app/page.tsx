@@ -22,13 +22,13 @@ export default function Home() {
 
       <header className="relative z-10 flex min-h-24 items-center justify-between px-5 sm:px-8 lg:px-16">
         <a href="#top" className="flex items-center" aria-label="BYOURSITE home">
-          <img src="/logo-byoursite-header.jpg" alt="BYOURSITE" className="h-16 w-56 object-contain object-center sm:w-72" />
+          <img src="/logo-byoursite-header.jpg" alt="BYOURSITE" className="h-20 w-64 object-contain object-center sm:w-80" />
         </a>
         <nav className="hidden items-center gap-10 font-mono text-sm uppercase text-white/82 lg:flex">
           <a href="#servizi" className="transition hover:text-cyan-300">Servizi</a>
           <a href="#progetti" className="transition hover:text-cyan-300">Progetti</a>
+          <a href="#perche" className="transition hover:text-cyan-300">Perche</a>
           <a href="#metodo" className="transition hover:text-cyan-300">Metodo</a>
-          <a href="#chi-sono" className="transition hover:text-cyan-300">Chi sono</a>
           <a href="#contatti" className="transition hover:text-cyan-300">Contatti</a>
         </nav>
         <a href="mailto:info@byoursite.it" className="border border-cyan-300/70 px-4 py-3 font-mono text-xs uppercase text-white transition hover:bg-cyan-300 hover:text-[#030711] sm:px-7">
@@ -40,8 +40,9 @@ export default function Home() {
         <div className="grid gap-10 lg:grid-cols-[0.78fr_1.22fr] lg:items-center">
           <div className="order-2 max-w-xl lg:order-1">
             <p className="font-mono text-lg uppercase leading-relaxed text-white/78">
-              Il tuo <span className="text-cyan-300">sito</span>.<br />
-              Al tuo <span className="text-violet-300">fianco</span>.
+              Siti web.<br />
+              Gestionali.<br />
+              API e automazioni.
             </p>
             <p className="mt-12 max-w-lg font-mono text-xl leading-relaxed text-white sm:text-2xl">
               Progetto e sviluppo siti web e soluzioni digitali <span className="text-cyan-300">su misura</span>, seguendoti dalla prima idea fino alla pubblicazione.
@@ -57,11 +58,11 @@ export default function Home() {
           </div>
 
           <div className="order-1 lg:order-2">
-            <p className="mb-5 text-right font-mono text-xs uppercase tracking-[0.34em] text-white/52">Web solutions</p>
-            <h1 className="relative font-sans text-[clamp(3.6rem,9vw,9.5rem)] font-black uppercase leading-[0.9] tracking-normal text-white">
-              <span className="block">Siti web</span>
-              <span className="-mt-2 block">gestionali</span>
-              <span className="ml-[28%] block w-max bg-gradient-to-r from-cyan-300 via-sky-500 to-violet-300 bg-clip-text text-transparent drop-shadow-[0_0_28px_rgba(88,205,238,0.38)]">e API</span>
+            <p className="mb-5 font-mono text-xs uppercase tracking-[0.34em] text-white/52">Web solutions by your side</p>
+            <h1 className="relative font-sans text-[clamp(4.2rem,10vw,11rem)] font-black leading-[0.88] tracking-normal text-white">
+              <span className="block">Il tuo sito.</span>
+              <span className="ml-[10%] block bg-gradient-to-r from-cyan-300 via-sky-500 to-violet-300 bg-clip-text text-transparent drop-shadow-[0_0_28px_rgba(88,205,238,0.38)]">Al tuo fianco.</span>
+              <span className="mt-8 block max-w-2xl font-mono text-[clamp(0.95rem,1.4vw,1.35rem)] font-normal uppercase leading-relaxed text-white/76">Siti, gestionali e integrazioni costruiti con metodo, non con confusione.</span>
             </h1>
           </div>
         </div>
