@@ -22,7 +22,7 @@ export default function Home() {
 
       <header className="relative z-10 flex min-h-24 items-center justify-between px-5 sm:px-8 lg:px-16">
         <a href="#top" className="flex items-center" aria-label="BYOURSITE home">
-          <img src="/logo-byoursite-master.svg" alt="BYOURSITE" className="h-12 w-44 object-contain object-left sm:w-56" />
+          <img src="/logo-byoursite-master.jpg" alt="BYOURSITE" className="h-16 w-44 object-cover object-center sm:w-56" />
         </a>
         <nav className="hidden items-center gap-10 font-mono text-sm uppercase text-white/82 lg:flex">
           <a href="#servizi" className="transition hover:text-cyan-300">Servizi</a>

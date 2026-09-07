@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 
-const siteUrl = 'http://byoursite.com/';
+const siteUrl = 'https://byoursite.com/';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: '/og.png',
-        alt: 'Hero tipografica BYOURSITE con il gioco di parole site e side',
+        alt: 'Logo BYOURSITE su fondo scuro',
       },
     ],
   },
